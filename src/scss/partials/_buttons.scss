@@ -26,18 +26,18 @@ xButtons
   }
 
   &.btn-success {
-    background: $success;
+    background: $color-2;
 
     .no-touch &:hover {
-      background: lighten($success, 5%);
+      background: lighten($color-2, 5%);
     }
   }
 
   &.btn-alert {
-    background: $alert;
+    background: $color-5;
 
     .no-touch &:hover {
-      background: lighten($alert, 5%);
+      background: lighten($color-5, 5%);
     }
   }
 
